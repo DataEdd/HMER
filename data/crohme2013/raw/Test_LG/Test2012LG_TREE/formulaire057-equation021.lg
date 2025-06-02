@@ -1,0 +1,27 @@
+# Created by lgfilter.py from Test2012LG/formulaire057-equation021.lg
+#   Removed (0,4) {'R': 1.0}
+N,0,n,1.0
+N,1,1,1.0
+N,2,=,1.0
+N,3,=,1.0
+N,4,1,1.0
+
+E,0,1,Sub,1.0
+E,0,2,R,1.0
+E,0,3,R,1.0
+E,2,3,*,1.0
+E,2,4,R,1.0
+E,3,2,*,1.0
+E,3,4,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# n 0 
+# 1 1 
+# 1 4 
+# = 3 2 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# Sub 0 :: 1 
+# R 0 :: 3 2 
+# R 3 2 :: 4 

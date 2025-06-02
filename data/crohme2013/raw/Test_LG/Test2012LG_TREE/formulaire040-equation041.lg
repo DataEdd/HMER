@@ -1,0 +1,106 @@
+# Created by lgfilter.py from Test2012LG/formulaire040-equation041.lg
+#   Removed (3,11) {'B': 1.0}
+#   Removed (3,12) {'B': 1.0}
+#   Removed (7,11) {'R': 1.0}
+#   Removed (7,12) {'R': 1.0}
+#   Removed (6,11) {'R': 1.0}
+#   Removed (6,12) {'R': 1.0}
+#   Removed (4,13) {'R': 1.0}
+#   Removed (3,7) {'B': 1.0}
+#   Removed (3,6) {'B': 1.0}
+#   Removed (3,1) {'A': 1.0}
+#   Removed (3,2) {'A': 1.0}
+#   Removed (3,8) {'B': 1.0}
+#   Removed (8,11) {'R': 1.0}
+#   Removed (8,12) {'R': 1.0}
+#   Removed (7,10) {'R': 1.0}
+#   Removed (6,10) {'R': 1.0}
+#   Removed (4,10) {'R': 1.0}
+#   Removed (9,11) {'R': 1.0}
+#   Removed (9,12) {'R': 1.0}
+#   Removed (4,11) {'R': 1.0}
+#   Removed (4,12) {'R': 1.0}
+#   Removed (3,13) {'B': 1.0}
+#   Removed (5,11) {'I': 1.0}
+#   Removed (5,12) {'I': 1.0}
+#   Removed (7,9) {'R': 1.0}
+#   Removed (6,9) {'R': 1.0}
+#   Removed (5,9) {'I': 1.0}
+#   Removed (4,9) {'R': 1.0}
+#   Removed (3,5) {'B': 1.0}
+#   Removed (10,13) {'R': 1.0}
+#   Removed (7,13) {'R': 1.0}
+#   Removed (6,13) {'R': 1.0}
+#   Removed (8,10) {'R': 1.0}
+#   Removed (5,10) {'I': 1.0}
+#   Removed (5,8) {'I': 1.0}
+#   Removed (4,7) {'R': 1.0}
+#   Removed (4,6) {'R': 1.0}
+#   Removed (3,10) {'B': 1.0}
+#   Removed (4,8) {'R': 1.0}
+#   Removed (8,13) {'R': 1.0}
+#   Removed (5,13) {'I': 1.0}
+#   Removed (9,13) {'R': 1.0}
+#   Removed (3,9) {'B': 1.0}
+N,0,d,1.0
+N,1,x,1.0
+N,10,-,1.0
+N,11,x,1.0
+N,12,x,1.0
+N,13,),1.0
+N,2,x,1.0
+N,3,-,1.0
+N,4,\pi,1.0
+N,5,\sqrt,1.0
+N,6,x,1.0
+N,7,x,1.0
+N,8,(,1.0
+N,9,1,1.0
+
+E,0,1,R,1.0
+E,0,2,R,1.0
+E,1,2,*,1.0
+E,10,11,R,1.0
+E,10,12,R,1.0
+E,11,12,*,1.0
+E,11,13,R,1.0
+E,12,11,*,1.0
+E,12,13,R,1.0
+E,2,1,*,1.0
+E,3,0,A,1.0
+E,3,4,B,1.0
+E,4,5,R,1.0
+E,5,6,I,1.0
+E,5,7,I,1.0
+E,6,7,*,1.0
+E,6,8,R,1.0
+E,7,6,*,1.0
+E,7,8,R,1.0
+E,8,9,R,1.0
+E,9,10,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# ( 8 
+# 1 9 
+# x 7 6 
+# - 3 
+# d 0 
+# \pi 4 
+# \sqrt 5 
+# - 10 
+# x 11 12 
+# x 1 2 
+# ) 13 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 9 :: 10 
+# R 7 6 :: 8 
+# A 3 :: 0 
+# B 3 :: 4 
+# R 0 :: 1 2 
+# R 4 :: 5 
+# I 5 :: 7 6 
+# R 10 :: 11 12 
+# R 8 :: 9 
+# R 11 12 :: 13 

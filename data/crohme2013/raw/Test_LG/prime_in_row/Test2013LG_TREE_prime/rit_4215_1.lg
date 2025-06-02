@@ -1,0 +1,22 @@
+# Created by lgfilter.py from Test2013LG_primeROW/rit_4215_1.lg
+#   Removed (2,1) {'A': 1.0}
+N,0,b,1.0
+N,1,h,1.0
+N,2,-,1.0
+N,3,2,1.0
+
+E,0,1,R,1.0
+E,2,0,A,1.0
+E,2,3,B,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# b 0 
+# h 1 
+# - 2 
+# 2 3 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 0 :: 1 
+# A 2 :: 0 
+# B 2 :: 3 

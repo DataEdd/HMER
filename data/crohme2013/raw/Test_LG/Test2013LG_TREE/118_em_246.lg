@@ -1,0 +1,56 @@
+# Created by lgfilter.py from Test2013LG/118_em_246.lg
+#   Removed (3,5) {'Sub': 1.0}
+#   Removed (1,4) {'Sub': 1.0}
+#   Removed (0,4) {'Sub': 1.0}
+#   Removed (2,4) {'Sub': 1.0}
+#   Removed (1,5) {'Sub': 1.0}
+#   Removed (0,5) {'Sub': 1.0}
+#   Removed (2,5) {'Sub': 1.0}
+#   Removed (1,7) {'Sub': 1.0}
+#   Removed (1,6) {'Sub': 1.0}
+#   Removed (0,7) {'Sub': 1.0}
+#   Removed (0,6) {'Sub': 1.0}
+#   Removed (2,7) {'Sub': 1.0}
+#   Removed (2,6) {'Sub': 1.0}
+#   Removed (4,7) {'R': 1.0}
+#   Removed (4,6) {'R': 1.0}
+#   Removed (3,7) {'Sub': 1.0}
+#   Removed (3,6) {'Sub': 1.0}
+N,0,I,1.0
+N,1,I,1.0
+N,2,I,1.0
+N,3,1,1.0
+N,4,m,1.0
+N,5,a,1.0
+N,6,x,1.0
+N,7,x,1.0
+
+E,0,1,*,1.0
+E,0,2,*,1.0
+E,0,3,Sub,1.0
+E,1,0,*,1.0
+E,1,2,*,1.0
+E,1,3,Sub,1.0
+E,2,0,*,1.0
+E,2,1,*,1.0
+E,2,3,Sub,1.0
+E,3,4,Sub,1.0
+E,4,5,R,1.0
+E,5,6,R,1.0
+E,5,7,R,1.0
+E,6,7,*,1.0
+E,7,6,*,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# x 7 6 
+# 1 3 
+# I 1 0 2 
+# m 4 
+# a 5 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# Sub 3 :: 4 
+# Sub 1 0 2 :: 3 
+# R 4 :: 5 
+# R 5 :: 7 6 

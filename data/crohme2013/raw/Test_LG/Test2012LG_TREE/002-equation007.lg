@@ -1,0 +1,42 @@
+# Created by lgfilter.py from Test2012LG/002-equation007.lg
+#   Removed (0,3) {'R': 1.0}
+#   Removed (0,4) {'R': 1.0}
+#   Removed (3,6) {'R': 1.0}
+#   Removed (4,6) {'R': 1.0}
+#   Removed (2,5) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+N,0,y,1.0
+N,1,n,1.0
+N,2,\lt,1.0
+N,3,x,1.0
+N,4,x,1.0
+N,5,B,1.0
+N,6,k,1.0
+
+E,0,1,Sup,1.0
+E,0,2,R,1.0
+E,2,3,R,1.0
+E,2,4,R,1.0
+E,3,4,*,1.0
+E,3,5,R,1.0
+E,4,3,*,1.0
+E,4,5,R,1.0
+E,5,6,Sup,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# k 6 
+# B 5 
+# y 0 
+# n 1 
+# \lt 2 
+# x 3 4 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# Sup 5 :: 6 
+# R 0 :: 2 
+# Sup 0 :: 1 
+# R 2 :: 3 4 
+# R 3 4 :: 5 

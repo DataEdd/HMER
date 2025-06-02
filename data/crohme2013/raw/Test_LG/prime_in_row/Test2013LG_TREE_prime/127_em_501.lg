@@ -1,0 +1,43 @@
+# Created by lgfilter.py from Test2013LG_primeROW/127_em_501.lg
+#   Removed (3,7) {'B': 1.0}
+#   Removed (3,6) {'B': 1.0}
+N,0,d,1.0
+N,1,d,1.0
+N,2,d,1.0
+N,3,-,1.0
+N,4,d,1.0
+N,5,d,1.0
+N,6,t,1.0
+N,7,t,1.0
+
+E,0,1,*,1.0
+E,0,2,*,1.0
+E,1,0,*,1.0
+E,1,2,*,1.0
+E,2,0,*,1.0
+E,2,1,*,1.0
+E,3,0,A,1.0
+E,3,1,A,1.0
+E,3,2,A,1.0
+E,3,4,B,1.0
+E,3,5,B,1.0
+E,4,5,*,1.0
+E,4,6,R,1.0
+E,4,7,R,1.0
+E,5,4,*,1.0
+E,5,6,R,1.0
+E,5,7,R,1.0
+E,6,7,*,1.0
+E,7,6,*,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# - 3 
+# d 1 0 2 
+# t 7 6 
+# d 5 4 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# A 3 :: 1 0 2 
+# B 3 :: 5 4 
+# R 5 4 :: 7 6 

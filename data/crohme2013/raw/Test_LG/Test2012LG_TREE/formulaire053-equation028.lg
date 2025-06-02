@@ -1,0 +1,18 @@
+# Created by lgfilter.py from Test2012LG/formulaire053-equation028.lg
+#   Removed (0,2) {'R': 1.0}
+N,0,c,1.0
+N,1,\sqrt,1.0
+N,2,2,1.0
+
+E,0,1,R,1.0
+E,1,2,I,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# c 0 
+# \sqrt 1 
+# 2 2 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 0 :: 1 
+# I 1 :: 2 

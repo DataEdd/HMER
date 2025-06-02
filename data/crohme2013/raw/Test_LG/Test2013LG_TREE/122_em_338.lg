@@ -1,0 +1,82 @@
+# Created by lgfilter.py from Test2013LG/122_em_338.lg
+#   Removed (5,11) {'R': 1.0}
+#   Removed (5,10) {'R': 1.0}
+#   Removed (1,3) {'Sup': 1.0}
+#   Removed (1,4) {'Sup': 1.0}
+#   Removed (0,3) {'Sup': 1.0}
+#   Removed (0,4) {'Sup': 1.0}
+#   Removed (7,11) {'Sup': 1.0}
+#   Removed (7,10) {'Sup': 1.0}
+#   Removed (6,11) {'Sup': 1.0}
+#   Removed (6,10) {'Sup': 1.0}
+#   Removed (1,11) {'R': 1.0}
+#   Removed (1,10) {'R': 1.0}
+#   Removed (0,11) {'R': 1.0}
+#   Removed (0,10) {'R': 1.0}
+#   Removed (5,9) {'R': 1.0}
+#   Removed (5,8) {'R': 1.0}
+#   Removed (1,9) {'R': 1.0}
+#   Removed (1,8) {'R': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (1,7) {'R': 1.0}
+#   Removed (1,6) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+N,0,p,1.0
+N,1,p,1.0
+N,10,E,1.0
+N,11,E,1.0
+N,2,S,1.0
+N,3,A,1.0
+N,4,A,1.0
+N,5,\gt,1.0
+N,6,p,1.0
+N,7,p,1.0
+N,8,A,1.0
+N,9,A,1.0
+
+E,0,1,*,1.0
+E,0,2,Sup,1.0
+E,0,5,R,1.0
+E,1,0,*,1.0
+E,1,2,Sup,1.0
+E,1,5,R,1.0
+E,10,11,*,1.0
+E,11,10,*,1.0
+E,2,3,R,1.0
+E,2,4,R,1.0
+E,3,4,*,1.0
+E,4,3,*,1.0
+E,5,6,R,1.0
+E,5,7,R,1.0
+E,6,7,*,1.0
+E,6,8,Sup,1.0
+E,6,9,Sup,1.0
+E,7,6,*,1.0
+E,7,8,Sup,1.0
+E,7,9,Sup,1.0
+E,8,10,R,1.0
+E,8,11,R,1.0
+E,8,9,*,1.0
+E,9,10,R,1.0
+E,9,11,R,1.0
+E,9,8,*,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# p 7 6 
+# \gt 5 
+# A 9 8 
+# p 1 0 
+# E 11 10 
+# S 2 
+# A 3 4 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# Sup 7 6 :: 9 8 
+# R 5 :: 7 6 
+# R 9 8 :: 11 10 
+# Sup 1 0 :: 2 
+# R 1 0 :: 5 
+# R 2 :: 3 4 

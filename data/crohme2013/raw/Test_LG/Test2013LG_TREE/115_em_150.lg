@@ -1,0 +1,96 @@
+# Created by lgfilter.py from Test2013LG/115_em_150.lg
+#   Removed (0,4) {'R': 1.0}
+#   Removed (3,11) {'R': 1.0}
+#   Removed (2,11) {'R': 1.0}
+#   Removed (4,8) {'R': 1.0}
+#   Removed (4,7) {'R': 1.0}
+#   Removed (4,6) {'R': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+#   Removed (5,11) {'R': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (4,9) {'R': 1.0}
+#   Removed (5,9) {'R': 1.0}
+#   Removed (3,5) {'R': 1.0}
+#   Removed (2,5) {'R': 1.0}
+#   Removed (5,10) {'R': 1.0}
+#   Removed (8,11) {'R': 1.0}
+#   Removed (7,11) {'R': 1.0}
+#   Removed (6,11) {'R': 1.0}
+#   Removed (8,10) {'R': 1.0}
+#   Removed (7,10) {'R': 1.0}
+#   Removed (6,10) {'R': 1.0}
+#   Removed (0,11) {'R': 1.0}
+#   Removed (9,11) {'R': 1.0}
+#   Removed (3,8) {'R': 1.0}
+#   Removed (3,7) {'R': 1.0}
+#   Removed (3,6) {'R': 1.0}
+#   Removed (2,8) {'R': 1.0}
+#   Removed (2,7) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+#   Removed (0,10) {'R': 1.0}
+#   Removed (3,9) {'R': 1.0}
+#   Removed (2,9) {'R': 1.0}
+#   Removed (4,10) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (3,10) {'R': 1.0}
+#   Removed (2,10) {'R': 1.0}
+#   Removed (4,11) {'R': 1.0}
+N,0,e,1.0
+N,1,s,1.0
+N,10,e,1.0
+N,11,r,1.0
+N,2,+,1.0
+N,3,+,1.0
+N,4,1,1.0
+N,5,COMMA,1.0
+N,6,\ldots,1.0
+N,7,\ldots,1.0
+N,8,\ldots,1.0
+N,9,COMMA,1.0
+
+E,0,1,Sub,1.0
+E,0,2,R,1.0
+E,0,3,R,1.0
+E,10,11,Sub,1.0
+E,2,3,*,1.0
+E,2,4,R,1.0
+E,3,2,*,1.0
+E,3,4,R,1.0
+E,4,5,R,1.0
+E,5,6,R,1.0
+E,5,7,R,1.0
+E,5,8,R,1.0
+E,6,7,*,1.0
+E,6,8,*,1.0
+E,6,9,R,1.0
+E,7,6,*,1.0
+E,7,8,*,1.0
+E,7,9,R,1.0
+E,8,6,*,1.0
+E,8,7,*,1.0
+E,8,9,R,1.0
+E,9,10,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# COMMA 9 
+# COMMA 5 
+# + 3 2 
+# \ldots 8 7 6 
+# 1 4 
+# e 10 
+# r 11 
+# e 0 
+# s 1 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 9 :: 10 
+# R 5 :: 8 7 6 
+# R 3 2 :: 4 
+# R 8 7 6 :: 9 
+# R 4 :: 5 
+# Sub 10 :: 11 
+# R 0 :: 3 2 
+# Sub 0 :: 1 

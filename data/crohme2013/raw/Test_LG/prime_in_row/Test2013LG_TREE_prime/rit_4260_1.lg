@@ -1,0 +1,28 @@
+# Created by lgfilter.py from Test2013LG_primeROW/rit_4260_1.lg
+#   Removed (3,2) {'A': 1.0}
+#   Removed (3,1) {'A': 1.0}
+#   Removed (0,2) {'R': 1.0}
+N,0,8,1.0
+N,1,\sqrt,1.0
+N,2,2,1.0
+N,3,-,1.0
+N,4,3,1.0
+
+E,0,1,R,1.0
+E,1,2,I,1.0
+E,3,0,A,1.0
+E,3,4,B,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# 3 4 
+# 8 0 
+# \sqrt 1 
+# 2 2 
+# - 3 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 0 :: 1 
+# I 1 :: 2 
+# A 3 :: 0 
+# B 3 :: 4 

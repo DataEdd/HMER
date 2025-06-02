@@ -1,0 +1,17 @@
+# Created by lgfilter.py from Test2012LG/formulaire052-equation023.lg
+N,0,1,1.0
+N,1,-,1.0
+N,2,r,1.0
+
+E,1,0,A,1.0
+E,1,2,B,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# 1 0 
+# - 1 
+# r 2 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# A 1 :: 0 
+# B 1 :: 2 

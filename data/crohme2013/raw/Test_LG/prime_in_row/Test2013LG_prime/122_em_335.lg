@@ -1,0 +1,7 @@
+# IUD, 2013_IVC_CROHME_F122_E335
+# Nodes:
+N, 0, \mu, 1.0
+N, 1, 0, 1.0
+
+# Edges:
+E, 0, 1, Sub, 1.0

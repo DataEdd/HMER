@@ -1,0 +1,187 @@
+# Created by lgfilter.py from Test2013LG/116_em_168.lg
+#   Removed (0,15) {'R': 1.0}
+#   Removed (0,16) {'R': 1.0}
+#   Removed (5,13) {'R': 1.0}
+#   Removed (5,14) {'R': 1.0}
+#   Removed (6,13) {'R': 1.0}
+#   Removed (6,14) {'R': 1.0}
+#   Removed (3,9) {'R': 1.0}
+#   Removed (11,17) {'R': 1.0}
+#   Removed (3,17) {'R': 1.0}
+#   Removed (2,12) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+#   Removed (0,11) {'R': 1.0}
+#   Removed (3,10) {'R': 1.0}
+#   Removed (2,8) {'R': 1.0}
+#   Removed (4,15) {'R': 1.0}
+#   Removed (4,16) {'R': 1.0}
+#   Removed (2,15) {'R': 1.0}
+#   Removed (2,16) {'R': 1.0}
+#   Removed (4,7) {'R': 1.0}
+#   Removed (5,9) {'R': 1.0}
+#   Removed (6,9) {'R': 1.0}
+#   Removed (0,17) {'R': 1.0}
+#   Removed (5,17) {'R': 1.0}
+#   Removed (6,17) {'R': 1.0}
+#   Removed (8,15) {'R': 1.0}
+#   Removed (8,16) {'R': 1.0}
+#   Removed (2,5) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+#   Removed (4,11) {'R': 1.0}
+#   Removed (3,15) {'R': 1.0}
+#   Removed (3,16) {'R': 1.0}
+#   Removed (2,11) {'R': 1.0}
+#   Removed (10,15) {'R': 1.0}
+#   Removed (10,16) {'R': 1.0}
+#   Removed (0,10) {'R': 1.0}
+#   Removed (5,10) {'R': 1.0}
+#   Removed (6,10) {'R': 1.0}
+#   Removed (3,7) {'R': 1.0}
+#   Removed (3,11) {'R': 1.0}
+#   Removed (0,4) {'R': 1.0}
+#   Removed (4,17) {'R': 1.0}
+#   Removed (8,13) {'R': 1.0}
+#   Removed (8,14) {'R': 1.0}
+#   Removed (2,17) {'R': 1.0}
+#   Removed (4,9) {'R': 1.0}
+#   Removed (5,15) {'R': 1.0}
+#   Removed (5,16) {'R': 1.0}
+#   Removed (6,15) {'R': 1.0}
+#   Removed (6,16) {'R': 1.0}
+#   Removed (11,18) {'R': 1.0}
+#   Removed (4,10) {'R': 1.0}
+#   Removed (8,12) {'R': 1.0}
+#   Removed (0,3) {'R': 1.0}
+#   Removed (11,13) {'R': 1.0}
+#   Removed (11,14) {'R': 1.0}
+#   Removed (5,7) {'R': 1.0}
+#   Removed (6,7) {'R': 1.0}
+#   Removed (0,18) {'R': 1.0}
+#   Removed (5,11) {'R': 1.0}
+#   Removed (6,11) {'R': 1.0}
+#   Removed (15,18) {'R': 1.0}
+#   Removed (16,18) {'R': 1.0}
+#   Removed (2,4) {'R': 1.0}
+#   Removed (3,12) {'R': 1.0}
+#   Removed (10,12) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (4,18) {'R': 1.0}
+#   Removed (0,13) {'R': 1.0}
+#   Removed (0,14) {'R': 1.0}
+#   Removed (4,8) {'R': 1.0}
+#   Removed (8,17) {'R': 1.0}
+#   Removed (10,18) {'R': 1.0}
+#   Removed (11,15) {'R': 1.0}
+#   Removed (11,16) {'R': 1.0}
+#   Removed (2,10) {'R': 1.0}
+#   Removed (8,11) {'R': 1.0}
+#   Removed (4,13) {'R': 1.0}
+#   Removed (4,14) {'R': 1.0}
+#   Removed (3,18) {'R': 1.0}
+#   Removed (2,18) {'R': 1.0}
+#   Removed (12,18) {'R': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (10,13) {'R': 1.0}
+#   Removed (10,14) {'R': 1.0}
+#   Removed (5,12) {'R': 1.0}
+#   Removed (6,12) {'R': 1.0}
+#   Removed (3,8) {'R': 1.0}
+#   Removed (2,7) {'R': 1.0}
+#   Removed (3,13) {'R': 1.0}
+#   Removed (3,14) {'R': 1.0}
+#   Removed (2,13) {'R': 1.0}
+#   Removed (2,14) {'R': 1.0}
+#   Removed (12,17) {'R': 1.0}
+#   Removed (0,12) {'R': 1.0}
+#   Removed (3,5) {'R': 1.0}
+#   Removed (3,6) {'R': 1.0}
+#   Removed (5,18) {'R': 1.0}
+#   Removed (6,18) {'R': 1.0}
+#   Removed (2,9) {'R': 1.0}
+#   Removed (4,12) {'R': 1.0}
+#   Removed (8,18) {'R': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (10,17) {'R': 1.0}
+N,0,M,1.0
+N,1,k,1.0
+N,10,n,1.0
+N,11,(,1.0
+N,12,n,1.0
+N,13,k,1.0
+N,14,k,1.0
+N,15,+,1.0
+N,16,+,1.0
+N,17,1,1.0
+N,18,),1.0
+N,2,(,1.0
+N,3,n,1.0
+N,4,),1.0
+N,5,=,1.0
+N,6,=,1.0
+N,7,1,1.0
+N,8,-,1.0
+N,9,2,1.0
+
+E,0,1,Sub,1.0
+E,0,2,R,1.0
+E,10,11,R,1.0
+E,11,12,R,1.0
+E,12,13,Sup,1.0
+E,12,14,Sup,1.0
+E,12,15,R,1.0
+E,12,16,R,1.0
+E,13,14,*,1.0
+E,14,13,*,1.0
+E,15,16,*,1.0
+E,15,17,R,1.0
+E,16,15,*,1.0
+E,16,17,R,1.0
+E,17,18,R,1.0
+E,2,3,R,1.0
+E,3,4,R,1.0
+E,4,5,R,1.0
+E,4,6,R,1.0
+E,5,6,*,1.0
+E,5,8,R,1.0
+E,6,5,*,1.0
+E,6,8,R,1.0
+E,8,10,R,1.0
+E,8,7,A,1.0
+E,8,9,B,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# ( 2 
+# n 3 
+# M 0 
+# 1 17 
+# + 15 16 
+# k 1 
+# ) 18 
+# n 10 
+# ( 11 
+# n 12 
+# k 13 14 
+# - 8 
+# 1 7 
+# 2 9 
+# = 5 6 
+# ) 4 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 3 :: 4 
+# Sub 0 :: 1 
+# R 0 :: 2 
+# B 8 :: 9 
+# R 8 :: 10 
+# A 8 :: 7 
+# R 15 16 :: 17 
+# R 5 6 :: 8 
+# R 2 :: 3 
+# R 11 :: 12 
+# R 4 :: 5 6 
+# R 10 :: 11 
+# R 17 :: 18 
+# R 12 :: 15 16 
+# Sup 12 :: 13 14 

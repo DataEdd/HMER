@@ -1,0 +1,767 @@
+# Created by lgfilter.py from Test2013LG_primeROW/106_em_116.lg
+#   Removed (5,27) {'R': 1.0}
+#   Removed (4,17) {'R': 1.0}
+#   Removed (17,29) {'R': 1.0}
+#   Removed (17,35) {'R': 1.0}
+#   Removed (31,39) {'R': 1.0}
+#   Removed (23,39) {'R': 1.0}
+#   Removed (23,33) {'R': 1.0}
+#   Removed (20,34) {'R': 1.0}
+#   Removed (21,34) {'R': 1.0}
+#   Removed (25,30) {'R': 1.0}
+#   Removed (26,30) {'R': 1.0}
+#   Removed (5,31) {'R': 1.0}
+#   Removed (24,31) {'R': 1.0}
+#   Removed (18,25) {'R': 1.0}
+#   Removed (18,26) {'R': 1.0}
+#   Removed (3,30) {'R': 1.0}
+#   Removed (2,30) {'R': 1.0}
+#   Removed (29,36) {'R': 1.0}
+#   Removed (12,37) {'R': 1.0}
+#   Removed (12,33) {'R': 1.0}
+#   Removed (12,23) {'R': 1.0}
+#   Removed (13,29) {'R': 1.0}
+#   Removed (13,18) {'R': 1.0}
+#   Removed (14,24) {'R': 1.0}
+#   Removed (4,37) {'R': 1.0}
+#   Removed (4,28) {'R': 1.0}
+#   Removed (4,32) {'R': 1.0}
+#   Removed (15,31) {'R': 1.0}
+#   Removed (16,31) {'R': 1.0}
+#   Removed (17,39) {'R': 1.0}
+#   Removed (19,35) {'R': 1.0}
+#   Removed (7,11) {'Sub': 1.0}
+#   Removed (6,11) {'Sub': 1.0}
+#   Removed (7,32) {'R': 1.0}
+#   Removed (6,32) {'R': 1.0}
+#   Removed (25,35) {'R': 1.0}
+#   Removed (26,35) {'R': 1.0}
+#   Removed (3,9) {'R': 1.0}
+#   Removed (3,10) {'R': 1.0}
+#   Removed (2,9) {'R': 1.0}
+#   Removed (2,10) {'R': 1.0}
+#   Removed (5,8) {'R': 1.0}
+#   Removed (1,22) {'R': 1.0}
+#   Removed (7,25) {'R': 1.0}
+#   Removed (7,26) {'R': 1.0}
+#   Removed (6,25) {'R': 1.0}
+#   Removed (6,26) {'R': 1.0}
+#   Removed (3,22) {'R': 1.0}
+#   Removed (2,22) {'R': 1.0}
+#   Removed (0,38) {'R': 1.0}
+#   Removed (1,35) {'R': 1.0}
+#   Removed (14,19) {'R': 1.0}
+#   Removed (14,39) {'R': 1.0}
+#   Removed (1,4) {'R': 1.0}
+#   Removed (4,15) {'R': 1.0}
+#   Removed (4,16) {'R': 1.0}
+#   Removed (32,35) {'R': 1.0}
+#   Removed (22,35) {'R': 1.0}
+#   Removed (0,30) {'R': 1.0}
+#   Removed (1,31) {'R': 1.0}
+#   Removed (17,27) {'R': 1.0}
+#   Removed (1,8) {'R': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (0,10) {'R': 1.0}
+#   Removed (14,36) {'R': 1.0}
+#   Removed (28,32) {'R': 1.0}
+#   Removed (20,24) {'R': 1.0}
+#   Removed (21,24) {'R': 1.0}
+#   Removed (0,37) {'R': 1.0}
+#   Removed (32,36) {'R': 1.0}
+#   Removed (5,15) {'R': 1.0}
+#   Removed (5,16) {'R': 1.0}
+#   Removed (0,22) {'R': 1.0}
+#   Removed (18,22) {'R': 1.0}
+#   Removed (12,30) {'R': 1.0}
+#   Removed (28,36) {'R': 1.0}
+#   Removed (12,27) {'R': 1.0}
+#   Removed (15,29) {'R': 1.0}
+#   Removed (16,29) {'R': 1.0}
+#   Removed (14,23) {'R': 1.0}
+#   Removed (15,35) {'R': 1.0}
+#   Removed (16,35) {'R': 1.0}
+#   Removed (5,34) {'R': 1.0}
+#   Removed (22,30) {'R': 1.0}
+#   Removed (5,22) {'R': 1.0}
+#   Removed (4,18) {'R': 1.0}
+#   Removed (4,25) {'R': 1.0}
+#   Removed (4,26) {'R': 1.0}
+#   Removed (18,35) {'R': 1.0}
+#   Removed (23,30) {'R': 1.0}
+#   Removed (24,29) {'R': 1.0}
+#   Removed (20,32) {'R': 1.0}
+#   Removed (21,32) {'R': 1.0}
+#   Removed (24,35) {'R': 1.0}
+#   Removed (3,7) {'R': 1.0}
+#   Removed (3,6) {'R': 1.0}
+#   Removed (2,7) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+#   Removed (31,38) {'R': 1.0}
+#   Removed (1,20) {'R': 1.0}
+#   Removed (1,21) {'R': 1.0}
+#   Removed (3,18) {'R': 1.0}
+#   Removed (2,18) {'R': 1.0}
+#   Removed (28,31) {'R': 1.0}
+#   Removed (13,25) {'R': 1.0}
+#   Removed (13,26) {'R': 1.0}
+#   Removed (13,30) {'R': 1.0}
+#   Removed (7,28) {'R': 1.0}
+#   Removed (6,28) {'R': 1.0}
+#   Removed (22,38) {'R': 1.0}
+#   Removed (3,20) {'R': 1.0}
+#   Removed (3,21) {'R': 1.0}
+#   Removed (2,20) {'R': 1.0}
+#   Removed (2,21) {'R': 1.0}
+#   Removed (4,34) {'R': 1.0}
+#   Removed (17,37) {'R': 1.0}
+#   Removed (15,19) {'R': 1.0}
+#   Removed (16,19) {'R': 1.0}
+#   Removed (4,7) {'R': 1.0}
+#   Removed (4,6) {'R': 1.0}
+#   Removed (7,17) {'R': 1.0}
+#   Removed (6,17) {'R': 1.0}
+#   Removed (7,13) {'R': 1.0}
+#   Removed (6,13) {'R': 1.0}
+#   Removed (1,39) {'R': 1.0}
+#   Removed (29,35) {'R': 1.0}
+#   Removed (0,11) {'R': 1.0}
+#   Removed (33,35) {'Sub': 1.0}
+#   Removed (5,12) {'R': 1.0}
+#   Removed (12,39) {'R': 1.0}
+#   Removed (19,22) {'R': 1.0}
+#   Removed (13,33) {'R': 1.0}
+#   Removed (22,36) {'R': 1.0}
+#   Removed (14,32) {'R': 1.0}
+#   Removed (1,17) {'R': 1.0}
+#   Removed (1,33) {'R': 1.0}
+#   Removed (0,32) {'R': 1.0}
+#   Removed (20,31) {'R': 1.0}
+#   Removed (21,31) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (20,23) {'R': 1.0}
+#   Removed (21,23) {'R': 1.0}
+#   Removed (22,33) {'R': 1.0}
+#   Removed (24,37) {'R': 1.0}
+#   Removed (0,25) {'R': 1.0}
+#   Removed (0,26) {'R': 1.0}
+#   Removed (3,36) {'R': 1.0}
+#   Removed (2,36) {'R': 1.0}
+#   Removed (12,14) {'R': 1.0}
+#   Removed (31,35) {'R': 1.0}
+#   Removed (0,36) {'R': 1.0}
+#   Removed (15,27) {'R': 1.0}
+#   Removed (16,27) {'R': 1.0}
+#   Removed (1,19) {'R': 1.0}
+#   Removed (5,25) {'R': 1.0}
+#   Removed (5,26) {'R': 1.0}
+#   Removed (17,22) {'R': 1.0}
+#   Removed (22,28) {'R': 1.0}
+#   Removed (0,13) {'R': 1.0}
+#   Removed (28,34) {'R': 1.0}
+#   Removed (24,27) {'R': 1.0}
+#   Removed (7,18) {'R': 1.0}
+#   Removed (6,18) {'R': 1.0}
+#   Removed (18,38) {'R': 1.0}
+#   Removed (5,17) {'R': 1.0}
+#   Removed (0,19) {'R': 1.0}
+#   Removed (0,28) {'R': 1.0}
+#   Removed (18,27) {'R': 1.0}
+#   Removed (3,14) {'R': 1.0}
+#   Removed (2,14) {'R': 1.0}
+#   Removed (12,18) {'R': 1.0}
+#   Removed (12,34) {'R': 1.0}
+#   Removed (12,24) {'R': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (13,37) {'R': 1.0}
+#   Removed (15,23) {'R': 1.0}
+#   Removed (16,23) {'R': 1.0}
+#   Removed (14,20) {'R': 1.0}
+#   Removed (14,21) {'R': 1.0}
+#   Removed (15,33) {'R': 1.0}
+#   Removed (16,33) {'R': 1.0}
+#   Removed (5,28) {'R': 1.0}
+#   Removed (4,30) {'R': 1.0}
+#   Removed (4,20) {'R': 1.0}
+#   Removed (4,21) {'R': 1.0}
+#   Removed (22,25) {'R': 1.0}
+#   Removed (22,26) {'R': 1.0}
+#   Removed (20,37) {'R': 1.0}
+#   Removed (21,37) {'R': 1.0}
+#   Removed (18,33) {'R': 1.0}
+#   Removed (7,31) {'R': 1.0}
+#   Removed (6,31) {'R': 1.0}
+#   Removed (24,33) {'R': 1.0}
+#   Removed (25,32) {'R': 1.0}
+#   Removed (26,32) {'R': 1.0}
+#   Removed (3,5) {'R': 1.0}
+#   Removed (2,5) {'R': 1.0}
+#   Removed (1,25) {'R': 1.0}
+#   Removed (1,26) {'R': 1.0}
+#   Removed (28,38) {'R': 1.0}
+#   Removed (13,20) {'R': 1.0}
+#   Removed (13,21) {'R': 1.0}
+#   Removed (13,15) {'R': 1.0}
+#   Removed (13,16) {'R': 1.0}
+#   Removed (7,22) {'R': 1.0}
+#   Removed (6,22) {'R': 1.0}
+#   Removed (3,25) {'R': 1.0}
+#   Removed (3,26) {'R': 1.0}
+#   Removed (2,25) {'R': 1.0}
+#   Removed (2,26) {'R': 1.0}
+#   Removed (17,19) {'R': 1.0}
+#   Removed (23,31) {'R': 1.0}
+#   Removed (0,34) {'R': 1.0}
+#   Removed (15,38) {'R': 1.0}
+#   Removed (16,38) {'R': 1.0}
+#   Removed (4,8) {'R': 1.0}
+#   Removed (7,15) {'R': 1.0}
+#   Removed (7,16) {'R': 1.0}
+#   Removed (6,15) {'R': 1.0}
+#   Removed (6,16) {'R': 1.0}
+#   Removed (7,9) {'Sub': 1.0}
+#   Removed (7,10) {'Sub': 1.0}
+#   Removed (6,9) {'Sub': 1.0}
+#   Removed (6,10) {'Sub': 1.0}
+#   Removed (30,38) {'R': 1.0}
+#   Removed (29,33) {'R': 1.0}
+#   Removed (30,32) {'R': 1.0}
+#   Removed (30,36) {'R': 1.0}
+#   Removed (3,11) {'R': 1.0}
+#   Removed (2,11) {'R': 1.0}
+#   Removed (19,33) {'R': 1.0}
+#   Removed (5,39) {'R': 1.0}
+#   Removed (25,37) {'R': 1.0}
+#   Removed (26,37) {'R': 1.0}
+#   Removed (14,38) {'R': 1.0}
+#   Removed (0,14) {'R': 1.0}
+#   Removed (19,28) {'R': 1.0}
+#   Removed (13,35) {'R': 1.0}
+#   Removed (19,37) {'R': 1.0}
+#   Removed (1,15) {'R': 1.0}
+#   Removed (1,16) {'R': 1.0}
+#   Removed (7,37) {'R': 1.0}
+#   Removed (6,37) {'R': 1.0}
+#   Removed (37,39) {'R': 1.0}
+#   Removed (1,13) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+#   Removed (25,29) {'R': 1.0}
+#   Removed (26,29) {'R': 1.0}
+#   Removed (13,39) {'R': 1.0}
+#   Removed (0,20) {'R': 1.0}
+#   Removed (0,21) {'R': 1.0}
+#   Removed (12,38) {'R': 1.0}
+#   Removed (31,33) {'R': 1.0}
+#   Removed (19,30) {'R': 1.0}
+#   Removed (3,34) {'R': 1.0}
+#   Removed (2,34) {'R': 1.0}
+#   Removed (15,24) {'R': 1.0}
+#   Removed (16,24) {'R': 1.0}
+#   Removed (18,31) {'R': 1.0}
+#   Removed (5,20) {'R': 1.0}
+#   Removed (5,21) {'R': 1.0}
+#   Removed (4,38) {'R': 1.0}
+#   Removed (17,28) {'R': 1.0}
+#   Removed (23,25) {'R': 1.0}
+#   Removed (23,26) {'R': 1.0}
+#   Removed (17,32) {'R': 1.0}
+#   Removed (4,39) {'R': 1.0}
+#   Removed (33,39) {'R': 1.0}
+#   Removed (25,31) {'R': 1.0}
+#   Removed (26,31) {'R': 1.0}
+#   Removed (5,18) {'R': 1.0}
+#   Removed (24,30) {'R': 1.0}
+#   Removed (18,24) {'R': 1.0}
+#   Removed (3,38) {'R': 1.0}
+#   Removed (2,38) {'R': 1.0}
+#   Removed (29,37) {'R': 1.0}
+#   Removed (12,32) {'R': 1.0}
+#   Removed (14,34) {'R': 1.0}
+#   Removed (12,28) {'R': 1.0}
+#   Removed (13,28) {'R': 1.0}
+#   Removed (14,25) {'R': 1.0}
+#   Removed (14,26) {'R': 1.0}
+#   Removed (4,36) {'R': 1.0}
+#   Removed (4,23) {'R': 1.0}
+#   Removed (4,33) {'R': 1.0}
+#   Removed (15,30) {'R': 1.0}
+#   Removed (16,30) {'R': 1.0}
+#   Removed (19,34) {'R': 1.0}
+#   Removed (7,39) {'R': 1.0}
+#   Removed (6,39) {'R': 1.0}
+#   Removed (23,34) {'R': 1.0}
+#   Removed (25,34) {'R': 1.0}
+#   Removed (26,34) {'R': 1.0}
+#   Removed (3,12) {'R': 1.0}
+#   Removed (2,12) {'R': 1.0}
+#   Removed (1,29) {'R': 1.0}
+#   Removed (13,17) {'R': 1.0}
+#   Removed (7,27) {'R': 1.0}
+#   Removed (6,27) {'R': 1.0}
+#   Removed (3,29) {'R': 1.0}
+#   Removed (2,29) {'R': 1.0}
+#   Removed (17,31) {'R': 1.0}
+#   Removed (31,37) {'R': 1.0}
+#   Removed (15,37) {'R': 1.0}
+#   Removed (16,37) {'R': 1.0}
+#   Removed (23,37) {'R': 1.0}
+#   Removed (4,12) {'R': 1.0}
+#   Removed (23,29) {'R': 1.0}
+#   Removed (14,30) {'R': 1.0}
+#   Removed (30,34) {'R': 1.0}
+#   Removed (8,11) {'R': 1.0}
+#   Removed (7,33) {'R': 1.0}
+#   Removed (6,33) {'R': 1.0}
+#   Removed (24,39) {'R': 1.0}
+#   Removed (32,34) {'R': 1.0}
+#   Removed (5,36) {'R': 1.0}
+#   Removed (19,24) {'R': 1.0}
+#   Removed (0,31) {'R': 1.0}
+#   Removed (1,30) {'R': 1.0}
+#   Removed (17,25) {'R': 1.0}
+#   Removed (17,26) {'R': 1.0}
+#   Removed (1,9) {'R': 1.0}
+#   Removed (1,10) {'R': 1.0}
+#   Removed (19,39) {'R': 1.0}
+#   Removed (20,39) {'R': 1.0}
+#   Removed (21,39) {'R': 1.0}
+#   Removed (28,33) {'R': 1.0}
+#   Removed (20,25) {'R': 1.0}
+#   Removed (20,26) {'R': 1.0}
+#   Removed (21,25) {'R': 1.0}
+#   Removed (21,26) {'R': 1.0}
+#   Removed (23,32) {'R': 1.0}
+#   Removed (32,37) {'R': 1.0}
+#   Removed (5,38) {'R': 1.0}
+#   Removed (0,23) {'R': 1.0}
+#   Removed (18,29) {'R': 1.0}
+#   Removed (12,31) {'R': 1.0}
+#   Removed (12,20) {'R': 1.0}
+#   Removed (12,21) {'R': 1.0}
+#   Removed (3,32) {'R': 1.0}
+#   Removed (2,32) {'R': 1.0}
+#   Removed (15,28) {'R': 1.0}
+#   Removed (16,28) {'R': 1.0}
+#   Removed (14,28) {'R': 1.0}
+#   Removed (1,37) {'R': 1.0}
+#   Removed (5,33) {'R': 1.0}
+#   Removed (5,23) {'R': 1.0}
+#   Removed (4,14) {'R': 1.0}
+#   Removed (4,24) {'R': 1.0}
+#   Removed (17,34) {'R': 1.0}
+#   Removed (22,27) {'R': 1.0}
+#   Removed (22,39) {'R': 1.0}
+#   Removed (24,28) {'R': 1.0}
+#   Removed (20,35) {'R': 1.0}
+#   Removed (21,35) {'R': 1.0}
+#   Removed (7,35) {'R': 1.0}
+#   Removed (6,35) {'R': 1.0}
+#   Removed (5,30) {'R': 1.0}
+#   Removed (1,27) {'R': 1.0}
+#   Removed (3,31) {'R': 1.0}
+#   Removed (2,31) {'R': 1.0}
+#   Removed (12,36) {'R': 1.0}
+#   Removed (28,30) {'R': 1.0}
+#   Removed (12,22) {'R': 1.0}
+#   Removed (13,24) {'R': 1.0}
+#   Removed (13,19) {'R': 1.0}
+#   Removed (7,29) {'R': 1.0}
+#   Removed (6,29) {'R': 1.0}
+#   Removed (18,37) {'R': 1.0}
+#   Removed (3,27) {'R': 1.0}
+#   Removed (2,27) {'R': 1.0}
+#   Removed (4,29) {'R': 1.0}
+#   Removed (30,35) {'R': 1.0}
+#   Removed (4,35) {'R': 1.0}
+#   Removed (30,39) {'R': 1.0}
+#   Removed (15,18) {'R': 1.0}
+#   Removed (16,18) {'R': 1.0}
+#   Removed (7,14) {'R': 1.0}
+#   Removed (6,14) {'R': 1.0}
+#   Removed (1,11) {'R': 1.0}
+#   Removed (23,27) {'R': 1.0}
+#   Removed (0,39) {'R': 1.0}
+#   Removed (3,8) {'R': 1.0}
+#   Removed (2,8) {'R': 1.0}
+#   Removed (5,9) {'R': 1.0}
+#   Removed (5,10) {'R': 1.0}
+#   Removed (1,23) {'R': 1.0}
+#   Removed (19,23) {'R': 1.0}
+#   Removed (7,24) {'R': 1.0}
+#   Removed (6,24) {'R': 1.0}
+#   Removed (3,23) {'R': 1.0}
+#   Removed (2,23) {'R': 1.0}
+#   Removed (0,15) {'R': 1.0}
+#   Removed (0,16) {'R': 1.0}
+#   Removed (1,34) {'R': 1.0}
+#   Removed (14,18) {'R': 1.0}
+#   Removed (1,7) {'R': 1.0}
+#   Removed (1,6) {'R': 1.0}
+#   Removed (14,37) {'R': 1.0}
+#   Removed (34,36) {'R': 1.0}
+#   Removed (20,28) {'R': 1.0}
+#   Removed (21,28) {'R': 1.0}
+#   Removed (22,34) {'R': 1.0}
+#   Removed (24,36) {'R': 1.0}
+#   Removed (19,27) {'R': 1.0}
+#   Removed (31,34) {'R': 1.0}
+#   Removed (1,18) {'R': 1.0}
+#   Removed (7,34) {'R': 1.0}
+#   Removed (6,34) {'R': 1.0}
+#   Removed (18,36) {'R': 1.0}
+#   Removed (17,20) {'R': 1.0}
+#   Removed (17,21) {'R': 1.0}
+#   Removed (20,38) {'R': 1.0}
+#   Removed (21,38) {'R': 1.0}
+#   Removed (0,12) {'R': 1.0}
+#   Removed (28,35) {'R': 1.0}
+#   Removed (5,14) {'R': 1.0}
+#   Removed (0,29) {'R': 1.0}
+#   Removed (18,23) {'R': 1.0}
+#   Removed (3,17) {'R': 1.0}
+#   Removed (2,17) {'R': 1.0}
+#   Removed (12,19) {'R': 1.0}
+#   Removed (28,37) {'R': 1.0}
+#   Removed (12,25) {'R': 1.0}
+#   Removed (12,26) {'R': 1.0}
+#   Removed (13,36) {'R': 1.0}
+#   Removed (15,22) {'R': 1.0}
+#   Removed (16,22) {'R': 1.0}
+#   Removed (14,22) {'R': 1.0}
+#   Removed (15,34) {'R': 1.0}
+#   Removed (16,34) {'R': 1.0}
+#   Removed (5,35) {'R': 1.0}
+#   Removed (22,31) {'R': 1.0}
+#   Removed (5,29) {'R': 1.0}
+#   Removed (4,19) {'R': 1.0}
+#   Removed (4,27) {'R': 1.0}
+#   Removed (22,24) {'R': 1.0}
+#   Removed (18,34) {'R': 1.0}
+#   Removed (18,39) {'R': 1.0}
+#   Removed (20,33) {'R': 1.0}
+#   Removed (21,33) {'R': 1.0}
+#   Removed (24,34) {'R': 1.0}
+#   Removed (0,18) {'R': 1.0}
+#   Removed (1,24) {'R': 1.0}
+#   Removed (3,19) {'R': 1.0}
+#   Removed (2,19) {'R': 1.0}
+#   Removed (13,27) {'R': 1.0}
+#   Removed (13,31) {'R': 1.0}
+#   Removed (7,23) {'R': 1.0}
+#   Removed (6,23) {'R': 1.0}
+#   Removed (3,24) {'R': 1.0}
+#   Removed (2,24) {'R': 1.0}
+#   Removed (29,34) {'R': 1.0}
+#   Removed (17,38) {'R': 1.0}
+#   Removed (4,9) {'R': 1.0}
+#   Removed (4,10) {'R': 1.0}
+#   Removed (7,38) {'R': 1.0}
+#   Removed (6,38) {'R': 1.0}
+#   Removed (29,32) {'R': 1.0}
+#   Removed (30,33) {'R': 1.0}
+#   Removed (5,13) {'R': 1.0}
+#   Removed (29,39) {'R': 1.0}
+#   Removed (19,29) {'R': 1.0}
+#   Removed (13,32) {'R': 1.0}
+#   Removed (22,37) {'R': 1.0}
+#   Removed (14,33) {'R': 1.0}
+#   Removed (0,35) {'R': 1.0}
+#   Removed (1,14) {'R': 1.0}
+#   Removed (1,32) {'R': 1.0}
+#   Removed (13,22) {'R': 1.0}
+#   Removed (0,33) {'R': 1.0}
+#   Removed (20,30) {'R': 1.0}
+#   Removed (21,30) {'R': 1.0}
+#   Removed (1,5) {'R': 1.0}
+#   Removed (0,3) {'R': 1.0}
+#   Removed (0,2) {'R': 1.0}
+#   Removed (30,37) {'R': 1.0}
+#   Removed (23,38) {'R': 1.0}
+#   Removed (7,19) {'R': 1.0}
+#   Removed (6,19) {'R': 1.0}
+#   Removed (33,38) {'R': 1.0}
+#   Removed (22,32) {'R': 1.0}
+#   Removed (0,17) {'R': 1.0}
+#   Removed (0,24) {'R': 1.0}
+#   Removed (3,37) {'R': 1.0}
+#   Removed (2,37) {'R': 1.0}
+#   Removed (29,38) {'R': 1.0}
+#   Removed (12,17) {'R': 1.0}
+#   Removed (19,31) {'R': 1.0}
+#   Removed (3,35) {'R': 1.0}
+#   Removed (2,35) {'R': 1.0}
+#   Removed (15,20) {'R': 1.0}
+#   Removed (15,21) {'R': 1.0}
+#   Removed (16,20) {'R': 1.0}
+#   Removed (16,21) {'R': 1.0}
+#   Removed (18,30) {'R': 1.0}
+#   Removed (5,24) {'R': 1.0}
+#   Removed (17,36) {'R': 1.0}
+#   Removed (17,23) {'R': 1.0}
+#   Removed (17,33) {'R': 1.0}
+#   Removed (22,29) {'R': 1.0}
+#   Removed (4,11) {'R': 1.0}
+#   Removed (33,36) {'Sub': 1.0}
+#   Removed (5,19) {'R': 1.0}
+#   Removed (24,38) {'R': 1.0}
+#   Removed (18,20) {'R': 1.0}
+#   Removed (18,21) {'R': 1.0}
+#   Removed (3,15) {'R': 1.0}
+#   Removed (3,16) {'R': 1.0}
+#   Removed (2,15) {'R': 1.0}
+#   Removed (2,16) {'R': 1.0}
+#   Removed (12,35) {'R': 1.0}
+#   Removed (12,29) {'R': 1.0}
+#   Removed (13,23) {'R': 1.0}
+#   Removed (14,27) {'R': 1.0}
+#   Removed (15,32) {'R': 1.0}
+#   Removed (16,32) {'R': 1.0}
+#   Removed (4,31) {'R': 1.0}
+#   Removed (4,22) {'R': 1.0}
+#   Removed (14,17) {'R': 1.0}
+#   Removed (20,36) {'R': 1.0}
+#   Removed (21,36) {'R': 1.0}
+#   Removed (18,32) {'R': 1.0}
+#   Removed (20,29) {'R': 1.0}
+#   Removed (21,29) {'R': 1.0}
+#   Removed (7,30) {'R': 1.0}
+#   Removed (6,30) {'R': 1.0}
+#   Removed (15,39) {'R': 1.0}
+#   Removed (16,39) {'R': 1.0}
+#   Removed (24,32) {'R': 1.0}
+#   Removed (25,33) {'R': 1.0}
+#   Removed (26,33) {'R': 1.0}
+#   Removed (3,13) {'R': 1.0}
+#   Removed (2,13) {'R': 1.0}
+#   Removed (19,32) {'R': 1.0}
+#   Removed (1,28) {'R': 1.0}
+#   Removed (14,35) {'R': 1.0}
+#   Removed (13,38) {'R': 1.0}
+#   Removed (7,20) {'R': 1.0}
+#   Removed (7,21) {'R': 1.0}
+#   Removed (6,20) {'R': 1.0}
+#   Removed (6,21) {'R': 1.0}
+#   Removed (3,28) {'R': 1.0}
+#   Removed (2,28) {'R': 1.0}
+#   Removed (17,30) {'R': 1.0}
+#   Removed (15,36) {'R': 1.0}
+#   Removed (16,36) {'R': 1.0}
+#   Removed (4,13) {'R': 1.0}
+#   Removed (14,31) {'R': 1.0}
+#   Removed (23,35) {'R': 1.0}
+#   Removed (3,39) {'R': 1.0}
+#   Removed (2,39) {'R': 1.0}
+#   Removed (32,38) {'R': 1.0}
+#   Removed (5,11) {'R': 1.0}
+#   Removed (25,39) {'R': 1.0}
+#   Removed (26,39) {'R': 1.0}
+#   Removed (25,36) {'R': 1.0}
+#   Removed (26,36) {'R': 1.0}
+#   Removed (5,37) {'R': 1.0}
+#   Removed (19,25) {'R': 1.0}
+#   Removed (19,26) {'R': 1.0}
+#   Removed (13,34) {'R': 1.0}
+#   Removed (19,36) {'R': 1.0}
+#   Removed (31,36) {'R': 1.0}
+#   Removed (1,38) {'R': 1.0}
+#   Removed (23,36) {'R': 1.0}
+#   Removed (17,24) {'R': 1.0}
+#   Removed (23,28) {'R': 1.0}
+#   Removed (7,36) {'R': 1.0}
+#   Removed (6,36) {'R': 1.0}
+#   Removed (1,12) {'R': 1.0}
+#   Removed (0,4) {'R': 1.0}
+#   Removed (20,27) {'R': 1.0}
+#   Removed (21,27) {'R': 1.0}
+#   Removed (25,38) {'R': 1.0}
+#   Removed (26,38) {'R': 1.0}
+#   Removed (28,39) {'R': 1.0}
+#   Removed (32,39) {'R': 1.0}
+#   Removed (0,27) {'R': 1.0}
+#   Removed (18,28) {'R': 1.0}
+#   Removed (29,31) {'R': 1.0}
+#   Removed (12,15) {'R': 1.0}
+#   Removed (12,16) {'R': 1.0}
+#   Removed (19,38) {'R': 1.0}
+#   Removed (3,33) {'R': 1.0}
+#   Removed (2,33) {'R': 1.0}
+#   Removed (15,25) {'R': 1.0}
+#   Removed (15,26) {'R': 1.0}
+#   Removed (16,25) {'R': 1.0}
+#   Removed (16,26) {'R': 1.0}
+#   Removed (14,29) {'R': 1.0}
+#   Removed (1,36) {'R': 1.0}
+#   Removed (5,32) {'R': 1.0}
+N,0,(,1.0
+N,1,n,1.0
+N,10,+,1.0
+N,11,1,1.0
+N,12,(,1.0
+N,13,x,1.0
+N,14,),1.0
+N,15,=,1.0
+N,16,=,1.0
+N,17,(,1.0
+N,18,2,1.0
+N,19,n,1.0
+N,2,+,1.0
+N,20,+,1.0
+N,21,+,1.0
+N,22,1,1.0
+N,23,),1.0
+N,24,x,1.0
+N,25,P,1.0
+N,26,P,1.0
+N,27,n,1.0
+N,28,(,1.0
+N,29,x,1.0
+N,3,+,1.0
+N,30,),1.0
+N,31,-,1.0
+N,32,n,1.0
+N,33,P,1.0
+N,34,n,1.0
+N,35,-,1.0
+N,36,1,1.0
+N,37,(,1.0
+N,38,x,1.0
+N,39,),1.0
+N,4,1,1.0
+N,5,),1.0
+N,6,P,1.0
+N,7,P,1.0
+N,8,n,1.0
+N,9,+,1.0
+
+E,0,1,R,1.0
+E,1,2,R,1.0
+E,1,3,R,1.0
+E,10,11,R,1.0
+E,10,9,*,1.0
+E,12,13,R,1.0
+E,13,14,R,1.0
+E,14,15,R,1.0
+E,14,16,R,1.0
+E,15,16,*,1.0
+E,15,17,R,1.0
+E,16,15,*,1.0
+E,16,17,R,1.0
+E,17,18,R,1.0
+E,18,19,R,1.0
+E,19,20,R,1.0
+E,19,21,R,1.0
+E,2,3,*,1.0
+E,2,4,R,1.0
+E,20,21,*,1.0
+E,20,22,R,1.0
+E,21,20,*,1.0
+E,21,22,R,1.0
+E,22,23,R,1.0
+E,23,24,R,1.0
+E,24,25,R,1.0
+E,24,26,R,1.0
+E,25,26,*,1.0
+E,25,27,Sub,1.0
+E,25,28,R,1.0
+E,26,25,*,1.0
+E,26,27,Sub,1.0
+E,26,28,R,1.0
+E,28,29,R,1.0
+E,29,30,R,1.0
+E,3,2,*,1.0
+E,3,4,R,1.0
+E,30,31,R,1.0
+E,31,32,R,1.0
+E,32,33,R,1.0
+E,33,34,Sub,1.0
+E,33,37,R,1.0
+E,34,35,R,1.0
+E,35,36,R,1.0
+E,37,38,R,1.0
+E,38,39,R,1.0
+E,4,5,R,1.0
+E,5,6,R,1.0
+E,5,7,R,1.0
+E,6,12,R,1.0
+E,6,7,*,1.0
+E,6,8,Sub,1.0
+E,7,12,R,1.0
+E,7,6,*,1.0
+E,7,8,Sub,1.0
+E,8,10,R,1.0
+E,8,9,R,1.0
+E,9,10,*,1.0
+E,9,11,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# - 35 
+# n 19 
+# 2 18 
+# - 31 
+# ) 30 
+# x 38 
+# = 15 16 
+# ) 14 
+# ( 17 
+# ( 37 
+# 1 36 
+# ( 0 
+# n 1 
+# ) 23 
+# 1 22 
+# x 29 
+# ( 28 
+# P 25 26 
+# x 24 
+# + 20 21 
+# n 27 
+# ) 39 
+# 1 11 
+# n 8 
+# + 9 10 
+# ( 12 
+# x 13 
+# ) 5 
+# + 3 2 
+# P 7 6 
+# 1 4 
+# n 32 
+# P 33 
+# n 34 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 35 :: 36 
+# R 19 :: 20 21 
+# R 18 :: 19 
+# R 31 :: 32 
+# R 30 :: 31 
+# R 38 :: 39 
+# R 15 16 :: 17 
+# R 14 :: 15 16 
+# R 17 :: 18 
+# R 37 :: 38 
+# R 0 :: 1 
+# R 1 :: 3 2 
+# R 23 :: 24 
+# R 22 :: 23 
+# R 29 :: 30 
+# R 28 :: 29 
+# Sub 25 26 :: 27 
+# R 25 26 :: 28 
+# R 24 :: 25 26 
+# R 20 21 :: 22 
+# R 32 :: 33 
+# R 33 :: 37 
+# Sub 33 :: 34 
+# R 12 :: 13 
+# R 13 :: 14 
+# R 5 :: 7 6 
+# R 3 2 :: 4 
+# R 7 6 :: 12 
+# Sub 7 6 :: 8 
+# R 4 :: 5 
+# R 8 :: 9 10 
+# R 9 10 :: 11 
+# R 34 :: 35 

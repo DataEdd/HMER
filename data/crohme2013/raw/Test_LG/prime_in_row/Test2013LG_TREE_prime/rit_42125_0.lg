@@ -1,0 +1,64 @@
+# Created by lgfilter.py from Test2013LG_primeROW/rit_42125_0.lg
+#   Removed (3,1) {'A': 1.0}
+#   Removed (2,1) {'A': 1.0}
+#   Removed (3,9) {'B': 1.0}
+#   Removed (3,8) {'B': 1.0}
+#   Removed (2,9) {'B': 1.0}
+#   Removed (2,8) {'B': 1.0}
+#   Removed (3,7) {'B': 1.0}
+#   Removed (2,7) {'B': 1.0}
+N,0,-,1.0
+N,1,1,1.0
+N,2,-,1.0
+N,3,-,1.0
+N,4,\sin,1.0
+N,5,\sin,1.0
+N,6,\sin,1.0
+N,7,2,1.0
+N,8,x,1.0
+N,9,x,1.0
+
+E,0,1,R,1.0
+E,2,0,A,1.0
+E,2,3,*,1.0
+E,2,4,B,1.0
+E,2,5,B,1.0
+E,2,6,B,1.0
+E,3,0,A,1.0
+E,3,2,*,1.0
+E,3,4,B,1.0
+E,3,5,B,1.0
+E,3,6,B,1.0
+E,4,5,*,1.0
+E,4,6,*,1.0
+E,4,7,Sup,1.0
+E,4,8,R,1.0
+E,4,9,R,1.0
+E,5,4,*,1.0
+E,5,6,*,1.0
+E,5,7,Sup,1.0
+E,5,8,R,1.0
+E,5,9,R,1.0
+E,6,4,*,1.0
+E,6,5,*,1.0
+E,6,7,Sup,1.0
+E,6,8,R,1.0
+E,6,9,R,1.0
+E,8,9,*,1.0
+E,9,8,*,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# x 9 8 
+# 2 7 
+# - 0 
+# 1 1 
+# \sin 5 4 6 
+# - 3 2 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 0 :: 1 
+# Sup 5 4 6 :: 7 
+# R 5 4 6 :: 9 8 
+# A 3 2 :: 0 
+# B 3 2 :: 5 4 6 

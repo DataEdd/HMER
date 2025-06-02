@@ -1,0 +1,117 @@
+# Created by lgfilter.py from Test2013LG_primeROW/117_em_199.lg
+#   Removed (12,11) {'A': 1.0}
+#   Removed (12,9) {'A': 1.0}
+#   Removed (12,10) {'A': 1.0}
+#   Removed (3,11) {'R': 1.0}
+#   Removed (3,9) {'R': 1.0}
+#   Removed (3,10) {'R': 1.0}
+#   Removed (2,11) {'R': 1.0}
+#   Removed (2,9) {'R': 1.0}
+#   Removed (2,10) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+#   Removed (4,5) {'Sup': 1.0}
+#   Removed (12,8) {'A': 1.0}
+#   Removed (12,7) {'A': 1.0}
+#   Removed (3,8) {'R': 1.0}
+#   Removed (3,7) {'R': 1.0}
+#   Removed (2,8) {'R': 1.0}
+#   Removed (2,7) {'R': 1.0}
+#   Removed (0,12) {'R': 1.0}
+#   Removed (4,13) {'Sup': 1.0}
+#   Removed (6,11) {'R': 1.0}
+#   Removed (6,9) {'R': 1.0}
+#   Removed (6,10) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (12,6) {'A': 1.0}
+#   Removed (4,11) {'Sup': 1.0}
+#   Removed (4,9) {'Sup': 1.0}
+#   Removed (4,10) {'Sup': 1.0}
+#   Removed (3,12) {'R': 1.0}
+#   Removed (2,12) {'R': 1.0}
+#   Removed (5,11) {'R': 1.0}
+#   Removed (5,9) {'R': 1.0}
+#   Removed (5,10) {'R': 1.0}
+#   Removed (4,6) {'Sup': 1.0}
+#   Removed (3,5) {'R': 1.0}
+#   Removed (2,5) {'R': 1.0}
+#   Removed (0,4) {'R': 1.0}
+#   Removed (0,11) {'R': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (0,10) {'R': 1.0}
+#   Removed (4,8) {'Sup': 1.0}
+#   Removed (4,7) {'Sup': 1.0}
+#   Removed (3,13) {'R': 1.0}
+#   Removed (2,13) {'R': 1.0}
+#   Removed (5,8) {'R': 1.0}
+#   Removed (5,7) {'R': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (0,13) {'R': 1.0}
+#   Removed (3,6) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+N,0,v,1.0
+N,1,1,1.0
+N,10,\pi,1.0
+N,11,\pi,1.0
+N,12,-,1.0
+N,13,9,1.0
+N,2,=,1.0
+N,3,=,1.0
+N,4,e,1.0
+N,5,-,1.0
+N,6,2,1.0
+N,7,i,1.0
+N,8,i,1.0
+N,9,\pi,1.0
+
+E,0,1,Sub,1.0
+E,0,2,R,1.0
+E,0,3,R,1.0
+E,10,11,*,1.0
+E,10,9,*,1.0
+E,11,10,*,1.0
+E,11,9,*,1.0
+E,12,13,B,1.0
+E,12,5,A,1.0
+E,2,3,*,1.0
+E,2,4,R,1.0
+E,3,2,*,1.0
+E,3,4,R,1.0
+E,4,12,Sup,1.0
+E,5,6,R,1.0
+E,6,7,R,1.0
+E,6,8,R,1.0
+E,7,10,R,1.0
+E,7,11,R,1.0
+E,7,8,*,1.0
+E,7,9,R,1.0
+E,8,10,R,1.0
+E,8,11,R,1.0
+E,8,7,*,1.0
+E,8,9,R,1.0
+E,9,10,*,1.0
+E,9,11,*,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# 2 6 
+# i 8 7 
+# = 3 2 
+# v 0 
+# e 4 
+# - 5 
+# 9 13 
+# \pi 11 9 10 
+# 1 1 
+# - 12 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 6 :: 8 7 
+# R 8 7 :: 11 9 10 
+# R 3 2 :: 4 
+# R 0 :: 3 2 
+# Sub 0 :: 1 
+# Sup 4 :: 12 
+# R 5 :: 6 
+# B 12 :: 13 
+# A 12 :: 5 

@@ -1,0 +1,18 @@
+# Created by lgfilter.py from Test2013LG/125_em_436.lg
+#   Removed (0,2) {'Sub': 1.0}
+N,0,v,1.0
+N,1,L,1.0
+N,2,G,1.0
+
+E,0,1,Sub,1.0
+E,1,2,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# v 0 
+# L 1 
+# G 2 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# Sub 0 :: 1 
+# R 1 :: 2 

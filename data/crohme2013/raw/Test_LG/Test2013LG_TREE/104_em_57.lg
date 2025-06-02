@@ -1,0 +1,28 @@
+# Created by lgfilter.py from Test2013LG/104_em_57.lg
+#   Removed (0,3) {'R': 1.0}
+#   Removed (0,4) {'R': 1.0}
+#   Removed (2,4) {'R': 1.0}
+N,0,y,1.0
+N,1,\prime,1.0
+N,2,(,1.0
+N,3,a,1.0
+N,4,),1.0
+
+E,0,1,Sup,1.0
+E,0,2,R,1.0
+E,2,3,R,1.0
+E,3,4,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# ) 4 
+# y 0 
+# \prime 1 
+# ( 2 
+# a 3 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 0 :: 2 
+# Sup 0 :: 1 
+# R 2 :: 3 
+# R 3 :: 4 

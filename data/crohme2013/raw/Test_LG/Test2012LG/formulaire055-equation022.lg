@@ -1,0 +1,7 @@
+# IUD, 2011_IVC_depart_F055_E022
+# Nodes:
+N, 0, \sqrt, 1.0
+N, 1, n, 1.0
+
+# Edges:
+E, 0, 1, I, 1.0

@@ -1,0 +1,10 @@
+# IUD, 2012_IVC_CROHME_F02_E000
+# Nodes:
+N, 0, \gamma, 1.0
+N, 1, \lt, 1.0
+N, 2, B, 1.0
+
+# Edges:
+E, 0, 1, R, 1.0
+E, 0, 2, R, 1.0
+E, 1, 2, R, 1.0

@@ -1,0 +1,77 @@
+# Created by lgfilter.py from Test2013LG_primeROW/103_em_7.lg
+#   Removed (0,4) {'Sup': 1.0}
+#   Removed (6,9) {'B': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (6,13) {'R': 1.0}
+#   Removed (6,12) {'R': 1.0}
+#   Removed (0,11) {'R': 1.0}
+#   Removed (0,10) {'R': 1.0}
+#   Removed (0,13) {'R': 1.0}
+#   Removed (0,12) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+N,0,\int,1.0
+N,1,1,1.0
+N,10,d,1.0
+N,11,d,1.0
+N,12,t,1.0
+N,13,t,1.0
+N,2,+,1.0
+N,3,+,1.0
+N,4,\infty,1.0
+N,5,1,1.0
+N,6,-,1.0
+N,7,t,1.0
+N,8,t,1.0
+N,9,2,1.0
+
+E,0,1,Sub,1.0
+E,0,2,Sup,1.0
+E,0,3,Sup,1.0
+E,0,6,R,1.0
+E,10,11,*,1.0
+E,10,12,R,1.0
+E,10,13,R,1.0
+E,11,10,*,1.0
+E,11,12,R,1.0
+E,11,13,R,1.0
+E,12,13,*,1.0
+E,13,12,*,1.0
+E,2,3,*,1.0
+E,2,4,R,1.0
+E,3,2,*,1.0
+E,3,4,R,1.0
+E,6,10,R,1.0
+E,6,11,R,1.0
+E,6,5,A,1.0
+E,6,7,B,1.0
+E,6,8,B,1.0
+E,7,8,*,1.0
+E,7,9,Sup,1.0
+E,8,7,*,1.0
+E,8,9,Sup,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# 2 9 
+# - 6 
+# 1 5 
+# + 3 2 
+# t 8 7 
+# \infty 4 
+# t 13 12 
+# d 11 10 
+# \int 0 
+# 1 1 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 3 2 :: 4 
+# Sup 8 7 :: 9 
+# R 11 10 :: 13 12 
+# R 0 :: 6 
+# Sub 0 :: 1 
+# Sup 0 :: 3 2 
+# B 6 :: 8 7 
+# R 6 :: 11 10 
+# A 6 :: 5 

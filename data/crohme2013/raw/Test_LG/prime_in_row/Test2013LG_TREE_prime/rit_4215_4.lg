@@ -1,0 +1,46 @@
+# Created by lgfilter.py from Test2013LG_primeROW/rit_4215_4.lg
+#   Removed (1,6) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+N,0,\log,1.0
+N,1,\log,1.0
+N,2,\log,1.0
+N,3,\log,1.0
+N,4,\log,1.0
+N,5,\log,1.0
+N,6,n,1.0
+
+E,0,1,*,1.0
+E,0,2,*,1.0
+E,0,3,R,1.0
+E,0,4,R,1.0
+E,0,5,R,1.0
+E,1,0,*,1.0
+E,1,2,*,1.0
+E,1,3,R,1.0
+E,1,4,R,1.0
+E,1,5,R,1.0
+E,2,0,*,1.0
+E,2,1,*,1.0
+E,2,3,R,1.0
+E,2,4,R,1.0
+E,2,5,R,1.0
+E,3,4,*,1.0
+E,3,5,*,1.0
+E,3,6,R,1.0
+E,4,3,*,1.0
+E,4,5,*,1.0
+E,4,6,R,1.0
+E,5,3,*,1.0
+E,5,4,*,1.0
+E,5,6,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# \log 3 5 4 
+# \log 1 0 2 
+# n 6 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 3 5 4 :: 6 
+# R 1 0 2 :: 3 5 4 

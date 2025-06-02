@@ -1,0 +1,17 @@
+# Created by lgfilter.py from Test2013LG/rit_4235_3.lg
+N,0,5,1.0
+N,1,-,1.0
+N,2,6,1.0
+
+E,1,0,A,1.0
+E,1,2,B,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# 5 0 
+# - 1 
+# 6 2 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# A 1 :: 0 
+# B 1 :: 2 

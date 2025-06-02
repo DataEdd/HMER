@@ -1,0 +1,71 @@
+# Created by lgfilter.py from Test2013LG/127_em_511.lg
+#   Removed (2,7) {'R': 1.0}
+#   Removed (5,9) {'R': 1.0}
+#   Removed (6,9) {'R': 1.0}
+#   Removed (0,3) {'R': 1.0}
+#   Removed (2,9) {'R': 1.0}
+#   Removed (2,8) {'R': 1.0}
+#   Removed (4,8) {'R': 1.0}
+#   Removed (4,7) {'R': 1.0}
+#   Removed (4,9) {'R': 1.0}
+#   Removed (3,9) {'R': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (3,7) {'R': 1.0}
+#   Removed (5,7) {'R': 1.0}
+#   Removed (6,7) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (3,5) {'R': 1.0}
+#   Removed (3,6) {'R': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (2,5) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+#   Removed (3,8) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+#   Removed (2,4) {'R': 1.0}
+#   Removed (0,4) {'R': 1.0}
+N,0,g,1.0
+N,1,\prime,1.0
+N,2,(,1.0
+N,3,b,1.0
+N,4,),1.0
+N,5,=,1.0
+N,6,=,1.0
+N,7,1,1.0
+N,8,-,1.0
+N,9,b,1.0
+
+E,0,1,Sup,1.0
+E,0,2,R,1.0
+E,2,3,R,1.0
+E,3,4,R,1.0
+E,4,5,R,1.0
+E,4,6,R,1.0
+E,5,6,*,1.0
+E,5,8,R,1.0
+E,6,5,*,1.0
+E,6,8,R,1.0
+E,8,7,A,1.0
+E,8,9,B,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# - 8 
+# ) 4 
+# = 5 6 
+# b 9 
+# 1 7 
+# g 0 
+# \prime 1 
+# ( 2 
+# b 3 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# A 8 :: 7 
+# B 8 :: 9 
+# R 4 :: 5 6 
+# R 5 6 :: 8 
+# Sup 0 :: 1 
+# R 0 :: 2 
+# R 2 :: 3 
+# R 3 :: 4 

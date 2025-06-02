@@ -1,0 +1,41 @@
+# Created by lgfilter.py from Test2013LG/124_em_411.lg
+#   Removed (3,5) {'R': 1.0}
+#   Removed (3,6) {'R': 1.0}
+#   Removed (2,5) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+#   Removed (0,4) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+N,0,V,1.0
+N,1,r,1.0
+N,2,=,1.0
+N,3,=,1.0
+N,4,V,1.0
+N,5,i,1.0
+N,6,i,1.0
+
+E,0,1,Sub,1.0
+E,0,2,R,1.0
+E,0,3,R,1.0
+E,2,3,*,1.0
+E,2,4,R,1.0
+E,3,2,*,1.0
+E,3,4,R,1.0
+E,4,5,Sub,1.0
+E,4,6,Sub,1.0
+E,5,6,*,1.0
+E,6,5,*,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# V 4 
+# V 0 
+# r 1 
+# i 5 6 
+# = 3 2 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# Sub 4 :: 5 6 
+# R 0 :: 3 2 
+# Sub 0 :: 1 
+# R 3 2 :: 4 

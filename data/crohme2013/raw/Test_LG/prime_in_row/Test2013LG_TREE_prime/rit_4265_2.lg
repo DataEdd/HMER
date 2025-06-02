@@ -1,0 +1,25 @@
+# Created by lgfilter.py from Test2013LG_primeROW/rit_4265_2.lg
+N,0,x,1.0
+N,1,x,1.0
+N,2,-,1.0
+N,3,x,1.0
+N,4,x,1.0
+
+E,0,1,*,1.0
+E,1,0,*,1.0
+E,2,0,A,1.0
+E,2,1,A,1.0
+E,2,3,B,1.0
+E,2,4,B,1.0
+E,3,4,*,1.0
+E,4,3,*,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# x 3 4 
+# x 1 0 
+# - 2 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# B 2 :: 3 4 
+# A 2 :: 1 0 

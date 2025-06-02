@@ -1,0 +1,165 @@
+# Created by lgfilter.py from Test2013LG/rit_42160_4.lg
+#   Removed (0,15) {'R': 1.0}
+#   Removed (5,13) {'R': 1.0}
+#   Removed (5,14) {'R': 1.0}
+#   Removed (4,13) {'R': 1.0}
+#   Removed (4,14) {'R': 1.0}
+#   Removed (11,18) {'R': 1.0}
+#   Removed (11,17) {'R': 1.0}
+#   Removed (8,10) {'R': 1.0}
+#   Removed (2,12) {'R': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (0,4) {'R': 1.0}
+#   Removed (0,11) {'R': 1.0}
+#   Removed (13,18) {'R': 1.0}
+#   Removed (13,17) {'R': 1.0}
+#   Removed (14,18) {'R': 1.0}
+#   Removed (14,17) {'R': 1.0}
+#   Removed (2,8) {'R': 1.0}
+#   Removed (7,15) {'R': 1.0}
+#   Removed (2,15) {'R': 1.0}
+#   Removed (12,15) {'R': 1.0}
+#   Removed (5,9) {'R': 1.0}
+#   Removed (4,9) {'R': 1.0}
+#   Removed (0,18) {'R': 1.0}
+#   Removed (0,17) {'R': 1.0}
+#   Removed (5,18) {'R': 1.0}
+#   Removed (5,17) {'R': 1.0}
+#   Removed (4,18) {'R': 1.0}
+#   Removed (4,17) {'R': 1.0}
+#   Removed (2,11) {'R': 1.0}
+#   Removed (0,10) {'R': 1.0}
+#   Removed (5,10) {'R': 1.0}
+#   Removed (4,10) {'R': 1.0}
+#   Removed (13,16) {'R': 1.0}
+#   Removed (14,16) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (7,18) {'R': 1.0}
+#   Removed (7,17) {'R': 1.0}
+#   Removed (2,18) {'R': 1.0}
+#   Removed (2,17) {'R': 1.0}
+#   Removed (7,9) {'B': 1.0}
+#   Removed (5,15) {'R': 1.0}
+#   Removed (4,15) {'R': 1.0}
+#   Removed (15,18) {'R': 1.0}
+#   Removed (15,17) {'R': 1.0}
+#   Removed (11,16) {'R': 1.0}
+#   Removed (7,10) {'B': 1.0}
+#   Removed (0,3) {'R': 1.0}
+#   Removed (11,13) {'R': 1.0}
+#   Removed (11,14) {'R': 1.0}
+#   Removed (5,6) {'R': 1.0}
+#   Removed (4,6) {'R': 1.0}
+#   Removed (0,16) {'R': 1.0}
+#   Removed (5,11) {'R': 1.0}
+#   Removed (4,11) {'R': 1.0}
+#   Removed (2,7) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+#   Removed (7,16) {'R': 1.0}
+#   Removed (0,13) {'R': 1.0}
+#   Removed (0,14) {'R': 1.0}
+#   Removed (11,15) {'R': 1.0}
+#   Removed (2,10) {'R': 1.0}
+#   Removed (7,13) {'R': 1.0}
+#   Removed (7,14) {'R': 1.0}
+#   Removed (2,16) {'R': 1.0}
+#   Removed (12,16) {'R': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (0,1) {'R': 1.0}
+#   Removed (5,12) {'R': 1.0}
+#   Removed (4,12) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+#   Removed (2,13) {'R': 1.0}
+#   Removed (2,14) {'R': 1.0}
+#   Removed (0,12) {'R': 1.0}
+#   Removed (5,16) {'R': 1.0}
+#   Removed (4,16) {'R': 1.0}
+#   Removed (2,9) {'R': 1.0}
+#   Removed (7,12) {'R': 1.0}
+#   Removed (12,18) {'R': 1.0}
+#   Removed (12,17) {'R': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (5,8) {'R': 1.0}
+#   Removed (4,8) {'R': 1.0}
+N,0,\int,1.0
+N,1,1,1.0
+N,10,y,1.0
+N,11,d,1.0
+N,12,y,1.0
+N,13,=,1.0
+N,14,=,1.0
+N,15,\int,1.0
+N,16,d,1.0
+N,17,x,1.0
+N,18,x,1.0
+N,2,-,1.0
+N,3,y,1.0
+N,4,+,1.0
+N,5,+,1.0
+N,6,1,1.0
+N,7,-,1.0
+N,8,1,1.0
+N,9,-,1.0
+
+E,0,2,R,1.0
+E,11,12,R,1.0
+E,12,13,R,1.0
+E,12,14,R,1.0
+E,13,14,*,1.0
+E,13,15,R,1.0
+E,14,13,*,1.0
+E,14,15,R,1.0
+E,15,16,R,1.0
+E,16,17,R,1.0
+E,16,18,R,1.0
+E,17,18,*,1.0
+E,18,17,*,1.0
+E,2,1,A,1.0
+E,2,3,B,1.0
+E,2,4,R,1.0
+E,2,5,R,1.0
+E,4,5,*,1.0
+E,4,7,R,1.0
+E,5,4,*,1.0
+E,5,7,R,1.0
+E,7,11,R,1.0
+E,7,6,A,1.0
+E,7,8,B,1.0
+E,8,9,R,1.0
+E,9,10,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# - 2 
+# y 3 
+# \int 0 
+# x 18 17 
+# \int 15 
+# 1 1 
+# d 16 
+# y 10 
+# d 11 
+# y 12 
+# = 13 14 
+# 1 8 
+# 1 6 
+# - 9 
+# + 5 4 
+# - 7 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# R 0 :: 2 
+# R 8 :: 9 
+# R 9 :: 10 
+# R 16 :: 18 17 
+# R 5 4 :: 7 
+# R 2 :: 5 4 
+# B 2 :: 3 
+# A 2 :: 1 
+# R 11 :: 12 
+# B 7 :: 8 
+# A 7 :: 6 
+# R 7 :: 11 
+# R 12 :: 13 14 
+# R 15 :: 16 
+# R 13 14 :: 15 

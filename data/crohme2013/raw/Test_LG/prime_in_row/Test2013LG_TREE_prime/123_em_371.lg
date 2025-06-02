@@ -1,0 +1,109 @@
+# Created by lgfilter.py from Test2013LG_primeROW/123_em_371.lg
+#   Removed (0,11) {'R': 1.0}
+#   Removed (9,13) {'R': 1.0}
+#   Removed (9,12) {'R': 1.0}
+#   Removed (10,13) {'R': 1.0}
+#   Removed (10,12) {'R': 1.0}
+#   Removed (3,11) {'R': 1.0}
+#   Removed (2,11) {'R': 1.0}
+#   Removed (4,11) {'R': 1.0}
+#   Removed (0,13) {'R': 1.0}
+#   Removed (0,12) {'R': 1.0}
+#   Removed (8,6) {'A': 1.0}
+#   Removed (3,5) {'R': 1.0}
+#   Removed (2,5) {'R': 1.0}
+#   Removed (4,5) {'R': 1.0}
+#   Removed (3,9) {'R': 1.0}
+#   Removed (3,10) {'R': 1.0}
+#   Removed (2,9) {'R': 1.0}
+#   Removed (2,10) {'R': 1.0}
+#   Removed (4,9) {'R': 1.0}
+#   Removed (4,10) {'R': 1.0}
+#   Removed (3,7) {'R': 1.0}
+#   Removed (2,7) {'R': 1.0}
+#   Removed (4,7) {'R': 1.0}
+#   Removed (5,7) {'R': 1.0}
+#   Removed (0,7) {'R': 1.0}
+#   Removed (8,7) {'A': 1.0}
+#   Removed (0,5) {'R': 1.0}
+#   Removed (3,13) {'R': 1.0}
+#   Removed (3,12) {'R': 1.0}
+#   Removed (2,13) {'R': 1.0}
+#   Removed (2,12) {'R': 1.0}
+#   Removed (4,13) {'R': 1.0}
+#   Removed (4,12) {'R': 1.0}
+#   Removed (0,8) {'R': 1.0}
+#   Removed (0,6) {'R': 1.0}
+#   Removed (8,11) {'B': 1.0}
+#   Removed (3,6) {'R': 1.0}
+#   Removed (2,6) {'R': 1.0}
+#   Removed (4,6) {'R': 1.0}
+#   Removed (8,13) {'B': 1.0}
+#   Removed (8,12) {'B': 1.0}
+#   Removed (0,9) {'R': 1.0}
+#   Removed (0,10) {'R': 1.0}
+N,0,C,1.0
+N,1,p,1.0
+N,10,\gamma,1.0
+N,11,-,1.0
+N,12,1,1.0
+N,13,1,1.0
+N,2,=,1.0
+N,3,=,1.0
+N,4,=,1.0
+N,5,\gamma,1.0
+N,6,n,1.0
+N,7,R,1.0
+N,8,-,1.0
+N,9,\gamma,1.0
+
+E,0,1,Sub,1.0
+E,0,2,R,1.0
+E,0,3,R,1.0
+E,0,4,R,1.0
+E,10,11,R,1.0
+E,10,9,*,1.0
+E,11,12,R,1.0
+E,11,13,R,1.0
+E,12,13,*,1.0
+E,13,12,*,1.0
+E,2,3,*,1.0
+E,2,4,*,1.0
+E,2,8,R,1.0
+E,3,2,*,1.0
+E,3,4,*,1.0
+E,3,8,R,1.0
+E,4,2,*,1.0
+E,4,3,*,1.0
+E,4,8,R,1.0
+E,5,6,R,1.0
+E,6,7,R,1.0
+E,8,10,B,1.0
+E,8,5,A,1.0
+E,8,9,B,1.0
+E,9,10,*,1.0
+E,9,11,R,1.0
+
+# [ OBJECTS ]
+#   Format: [Label] prim1 ... primN
+# - 8 
+# n 6 
+# = 3 2 4 
+# C 0 
+# R 7 
+# \gamma 5 
+# \gamma 9 10 
+# - 11 
+# p 1 
+# 1 13 12 
+# [ RELS ]
+#   Format:  [Label] parentPrim1 ... parentPrimN :: childPrim1 ... childPrimM
+# B 8 :: 9 10 
+# A 8 :: 5 
+# R 6 :: 7 
+# R 3 2 4 :: 8 
+# R 0 :: 3 2 4 
+# Sub 0 :: 1 
+# R 5 :: 6 
+# R 9 10 :: 11 
+# R 11 :: 13 12 
