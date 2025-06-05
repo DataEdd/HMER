@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-  # refreshed
 """make_dataset.py
 
-Bulk‑convert the CROHME‑2013 InkML corpus into an LMDB where each entry is a
+Bulk-convert the CROHME-2013 InkML corpus into an LMDB where each entry is a
 serialized dict with fields:
 
   xh     : handwritten raster (uint8 PNG bytes)
   xp     : printed template raster (uint8 PNG bytes)
   y      : list[int] (LaTeX token IDs; placeholder for now)
-  latex  : raw LaTeX string (pre‑tokenizer)
+  latex  : raw LaTeX string (pre-tokenizer)
   uid    : unique sample ID
 
 Usage:
@@ -17,6 +17,7 @@ Usage:
       --lmdb-out data/crohme2013/processed/train.lmdb \
       --n-workers 8
 """
+
 from __future__ import annotations
 
 import argparse
@@ -24,6 +25,7 @@ import os
 import pickle
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
+
 import lmdb
 from tqdm import tqdm
 import numpy as np
@@ -37,8 +39,8 @@ from src.preprocess.render import normalise_strokes, rasterise
 # Worker function: parse, rasterise, stub for template
 ###############################################################################
 
-def _worker(inkml_path: str) -> tuple[int, dict] | Exception:
-    """Load one InkML, rasterise handwriting and printed template, return picklable dict."""
+def _worker(inkml_path: str) -> dict | Exception:
+    """Load one InkML, rasterise handwriting and printed template, return a dict."""
     try:
         sample = parse_inkml(inkml_path)
         uid = sample["uid"]
@@ -62,7 +64,7 @@ def _worker(inkml_path: str) -> tuple[int, dict] | Exception:
             "xp": xp.tobytes(),
             "shape": xh.shape,
         }
-        return int(uid.split("_")[-1]), data_dict
+        return data_dict
     except Exception as e:
         return e
 
@@ -94,7 +96,7 @@ def main() -> None:
     n_total = len(inkml_paths)
     print(f"Found {n_total:,} InkML files under {args.inkml_root}")
 
-    # Create LMDB environment
+    # Create LMDB environment (make sure parent folder exists)
     os.makedirs(Path(args.lmdb_out).parent, exist_ok=True)
     env = lmdb.open(args.lmdb_out, map_size=1099511627776)
 
@@ -102,18 +104,23 @@ def main() -> None:
     with env.begin(write=True) as txn:
         with ProcessPoolExecutor(max_workers=args.n_workers) as exe:
             futures = {exe.submit(_worker, path): path for path in inkml_paths}
+
             for i, fut in enumerate(tqdm(futures, total=n_total)):
                 res = fut.result()
                 if isinstance(res, Exception):
+                    # Print the path + error, then skip
                     print(f"Error at {futures[fut]} -> {res}")
                     continue
-                idx, data_dict = res
-                key = f"{idx:08d}".encode("ascii")
+
+                # Use the loop index `i` as a stable integer key
+                data_dict = res
+                key = f"{i:08d}".encode("ascii")
                 txn.put(key, pickle.dumps(data_dict))
 
     env.sync()
     env.close()
     print("Done building LMDB.")
+
 
 if __name__ == "__main__":
     main()
