@@ -1,23 +1,34 @@
 # Handwritten Mathematical Expression Recognition (PAL-v2 Implementation)
 
-This project implements a deep learning pipeline for recognizing handwritten mathematical expressions, based on the paper:  
-**"Handwritten Mathematical Expression Recognition via Paired Adversarial Learning" (IJCV, 2020)**.
+This project implements a deep learning pipeline for recognizing handwritten mathematical expressions, based on the paper: **"Handwritten Mathematical Expression Recognition via Paired Adversarial Learning" (IJCV, 2020)**.
 
 ---
 
 ## 🧠 Overview
+
+This project implements the **PAL-v2 architecture**, combining:
+- Attention-based encoder-decoder
+- Paired Adversarial Learning (PAL)
+- DenseNet + CNN encoder
+- Pre-aware Coverage Attention (PCA)
+- Convolutional decoder
 
 Recognizing handwritten math expressions is challenging due to:
 - Variability in handwriting styles
 - 2D spatial layout of symbols
 - Structural and semantic ambiguity
 
-This repo implements the **PAL-v2 architecture**, combining:
-- Attention-based encoder-decoder
-- Paired Adversarial Learning (PAL)
-- DenseNet + CNN encoder
-- Pre-aware Coverage Attention (PCA)
-- Convolutional decoder
+---
+
+## ✅ Features
+
+- Semantic-invariant feature learning via adversarial training  
+- Recognition outputs in **LaTeX** format  
+- Modular components for recognizer and discriminator  
+- Trained and evaluated on **CROHME 2014 & 2016 datasets**  
+- Attention map and feature visualization via t-SNE  
+- LMDB data loader for efficient training on large datasets  
+- Lightweight configuration via YAML files
 
 ---
 
@@ -41,20 +52,9 @@ This repo implements the **PAL-v2 architecture**, combining:
 
 ### Recognition Examples
 
+![Exmaples]('images/image1.png')
 ---
 
-
-## ✅ Features
-
-- Semantic-invariant feature learning via adversarial training  
-- Recognition outputs in **LaTeX** format  
-- Modular components for recognizer and discriminator  
-- Trained and evaluated on **CROHME 2014 & 2016 datasets**  
-- Attention map and feature visualization via t-SNE  
-- LMDB data loader for efficient training on large datasets  
-- Lightweight configuration via YAML files
-
----
 
 ### Next Steps (Not Yet Implemented)
 - N-gram language model integration during decoding
