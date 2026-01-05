@@ -21,6 +21,26 @@ This repo implements the **PAL-v2 architecture**, combining:
 
 ---
 
+## Results
+
+### Our Model Performance
+| Metric | ExpRate(%) |
+| :--- | :--- |
+| Exact Match (0 errors) | 0.23% |
+| ExpRate (≤ 1 error) | 6.80% |
+| ExpRate (≤ 2 errors) | 10.87% |
+| ExpRate (≤ 3 errors) | 17.89% |
+
+### Paper's Model Performance
+| Metric | ExpRate(%) |
+| :--- | :--- |
+| Exact Match (0 errors) | 54.87% |
+| ExpRate (≤ 1 error) | 70.69% |
+| ExpRate (≤ 2 errors) | 75.76% |
+| ExpRate (≤ 3 errors) | 79.01% |
+---
+
+
 ## ✅ Features
 
 - Semantic-invariant feature learning via adversarial training  
@@ -42,53 +62,4 @@ This repo implements the **PAL-v2 architecture**, combining:
 
 - Implement MDLSTM encoder from the original paper instead of CNN encoder
 
-## ⚠️ Data & Model File Handling
-
-Due to **GitHub’s 100MB file size limit**, we do **not include** large files in this repository.  
-This includes:
-- `data/`: contains CROHME dataset, LMDB format
-- `checkpoints/`: saved `.pt` model weights
-- `palv2.pt`: final trained model
-
-You must manually **recreate these folders** following the steps below.
-
-## 🔁 How to Reproduce Results
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/DataEdd/HMER.git
-cd HMER
-``` 
-### 2. Setup environment and install dependencies
-
-```bash
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 3. Prepare the Data
-
-Download CROHME Dataset - https://www.isical.ac.in/~crohme/
-Place the raw .inkml files into a folder like:
-```bash
-data/crohme2013/raw/
-```
-
-Preprocess to LMDB
-
-```bash
-mkdir -p data/crohme2013/processed/
-
-python tools/create_lmdb.py \
-  --input data/crohme2013/raw/ \
-  --output data/crohme2013/processed/ \
-  --split train,val,test
-```
-This will generate train.lmdb, val.lmdb, and test.lmdb.
-
-### 4. Train the Model
-```bash
-python train.py --config configs/train.yaml
-```
-
+---
