@@ -21,7 +21,7 @@ This repo implements the **PAL-v2 architecture**, combining:
 
 ---
 
-## Results
+## Model Performance and Examples
 
 ### Our Model Performance
 | Metric | ExpRate(%) |
@@ -38,6 +38,9 @@ This repo implements the **PAL-v2 architecture**, combining:
 | ExpRate (≤ 1 error) | 70.69% |
 | ExpRate (≤ 2 errors) | 75.76% |
 | ExpRate (≤ 3 errors) | 79.01% |
+
+### Recognition Examples
+
 ---
 
 
