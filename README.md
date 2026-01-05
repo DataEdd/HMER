@@ -52,7 +52,8 @@ Recognizing handwritten math expressions is challenging due to:
 
 ### Recognition Examples
 
-![Exmaples]('images/image1.png')
+![Exmaples](images/image1.png)
+
 ---
 
 
